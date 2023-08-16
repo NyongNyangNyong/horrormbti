@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e3add4761737dd"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+  <title>폐가 탐험 테스트 ㅣ by.뇽냥뇽</title> 
+  <link rel="stylesheet" href="style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="노박쥐스타트본.ico" type="image/x-icon">
+  <link rel="icon" href="노박쥐스타트본.ico" type="image/x-icon">
+  <script src="jquery-3.6.3.min2.js"></script>
+</head>
+<body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
+  <div class="result">
+    <h3 id="result">나의 폐가 탐험 유형은?</h3>
+    <img src="/horrortest.html/큰희생정신.jpg" id="resultImg">
+    <h1 id="resultType">희생정신 ESFJ</h1>
+    <h3 id="typeChat"> 유형의 희귀성 : <div id="percent">6.6%</div> </h3>
+    <h3 id="comment">"먼저 도망가! 나는 신경쓰지마!.."</h3>
+    <div id="resultMsg">
+      <p id="youMsg">#폐가 탐험에서 당신은</p>
+      <p>평소에 예의바르고 친절한 태도를 일관하는 당신, 폐가 탐험에서도 마찬가지로 이러한 특성이 나타나곤 합니다. 넘쳐나는 의리와 배려심을 통해 숭고한 희생을 하는 역할을 맡을 확률이 높은 유형입니다.</p>
+      <p>당신은 평소에 생각이 너무 많은 편에 속하는 유형입니다. 따라서 어떤 행동을 하기 전에 계획을 세우는데 도움을 줄 순 있지만 , 해야 할 것에 지나치게 망설이는 선택지는 지양해야 할 것입니다.</p>
+      <p id="endMsg">객관적인 태도와 완벽주의자 성향을 지니고 있는 당신, 리더적 성향 또한 지니고 있는 경우가 많습니다. 따라서 한 집단에서 리더를 맡았을 때 정석적인 리더의 역할을 해낼 가능성이 높습니다.</p>
+    </div>
+    <div id="goodType" onclick="moveIntp()">
+      <h4>나와 맞는 유형</h4>
+      <img id="gtImg" src="/horrortest.html/작탐정.jpg">
+      <p id="gtName">탐정 INTP</p>
+    </div>
+    <div id="badType" onclick="moveIntj()">
+      <h4>나와 안 맞는 유형</h4>
+      <img id="bdImg" src="/horrortest.html/작감독.jpg">
+      <p id="btName">감독 INTJ</p>
+    </div>
+    <h5>클릭하면 해당 유형으로 이동합니다</h5>
+    <div id="hashtag">
+      <h4 id="share">해시태그를 복사해 인스타에 공유해보세요</h4>
+      <p id="hashtagText">#폐가유형테스트 #폐가탐험테스트 #나의유형은? #유형테스트 #뇽냥뇽 #폐가MBTI #스토리로보는유형테스트 #요즘유행하는테스트</p>
+      <button id="tagButton">해시태그 복사하기</button>
+    </div>
+    
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox_eg70"></div> 
+  </div>
+  <script src="result.js"></script>
+</body>
+</html>

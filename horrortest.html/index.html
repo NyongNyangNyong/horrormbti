@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+  <title>폐가 탐험 테스트 ㅣ by.뇽냥뇽</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="노박쥐스타트본.ico" type="image/x-icon">
+  <link rel="icon" href="노박쥐스타트본.ico" type="image/x-icon">
+  <script src="jquery-3.6.3.min.js">
+  </script>
+</head>
+<body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
+  <!--시작 화면-->
+  <div class="start">
+    <div class="testName">
+     <h1>폐가 탐험 테스트</h1>
+     <h2>#공포에 처했을 때 당신은? #폐가MBTI</h2>
+    </div>
+    <button id="bt_start" type="button" onclick="start();">START</button>
+    <img src="노박쥐스타트본.png" alt="폐가 유형 테스트 시작 이미지" class="startimg">
+  </div>
+  <!--질문 파트-->
+  <div class="question">
+    <div id="bar">
+    </div>
+    <div id="sg"> <!--진행 숫자 표시-->
+        <h1 class="q-num">Q1</h1>
+        <p class="progress-txt">1/12</p>
+    </div>
+    <div> <!--부트스트랩 프로그레스 바-->
+        <div class="progress-bar"></div>
+    </div>
+     <h3 id="title">폐가 탐험을 하러 가는 길 , 당신의 첫 대사는?</h3>
+     <img src="1.jpg" alt="1.질문이미지" id="question_img1">
+     <img src="2.png" alt="2.질문이미지" id="question_img2">
+     <img src="3.jpg" alt="3.질문이미지" id="question_img3">               
+     <img src="4.jpg" alt="4.질문이미지" id="question_img4">        
+     <img src="5.jpg" alt="5.질문이미지" id="question_img5">                
+     <img src="6.jpg" alt="6.질문이미지" id="question_img6">             
+     <img src="7.jpg" alt="7.질문이미지" id="question_img7">                    
+     <img src="8.jpg" alt="8.질문이미지" id="question_img8">                    
+     <img src="9.jpg" alt="9.질문이미지" id="question_img9">    
+     <img src="10.jpg" alt="10.질문이미지" id="question_img10">                         
+     <img src="11.jpg" alt="11.질문이미지" id="question_img11">    
+     <img src="12.jpg" alt="12.질문이미지" id="question_img12">                 
+     <input id="type" type="hidden" value="EI">
+     <button id="A" type="button">빨리 와! 빨리!</button>
+     <button id="B" type="button">(집 마렵다)</button>
+  </div>
+    <input type="hidden" id="EI" value="0">     
+    <input type="hidden" id="SN" value="0">    
+    <input type="hidden" id="TF" value="0">  
+    <input type="hidden" id="JP" value="0">
+ <script src="js1.js">
+ </script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e3add4761737dd"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable="no">
+  <title>폐가 탐험 테스트 ㅣ by.뇽냥뇽</title> 
+  <link rel="stylesheet" href="style2.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="노박쥐스타트본.ico" type="image/x-icon">
+  <link rel="icon" href="노박쥐스타트본.ico" type="image/x-icon">
+  <script src="jquery-3.6.3.min2.js"></script>
+</head>
+<body oncontextmenu='return false' ondragstart='return false' onselectstart='return false'>
+  <div class="result">
+    <h3 id="result">나의 폐가 탐험 유형은?</h3>
+    <img src="/horrortest.html/큰장난쟁이.jpg" id="resultImg">
+    <h1 id="resultType">장난쟁이 ESTP</h1>
+    <h3 id="typeChat"> 유형의 희귀성 : <div id="percent">4.4%</div> </h3>
+    <h3 id="comment">"하고싶다.. 답답한건 못참아!"</h3>
+    <div id="resultMsg">
+      <p id="youMsg">#폐가 탐험에서 당신은</p>
+      <p>평소에 자유를 갈망하는 당신은 엄청난 즉흥적 성향을 지니고 있습니다. 또한 자기주장 또한 강한 당신은 하고싶은 일이 있다면 무조건 해야한다는 마인드를 지니고 있을 가능성이 높습니다!</p>
+      <p>핵인싸적 성향을 지닌 당신은 넘치다 못한 끼때문에 주변 지인들이 관종이라는 별명으로 부르기도 합니다. 이러한 성향 덕분에 당신의 주변에는 친구들이 항상 많을 가능성이 높습니다</p>
+      <p id="endMsg">대체로 여러가지 일들을 도전하는 성향을 지닌 당신은 다재다능한 능력을 지니고 있을 가능성이 높습니다. 또한 생각을 많이하는 편에 속하며 좋은 아이디어들을 시도때도없이 떠올려 낼 가능성이 높습니다</p>
+    </div>
+    <div id="goodType" onclick="moveInfj()">
+      <h4>나와 맞는 유형</h4>
+      <img id="gtImg" src="/horrortest.html/작완벽추구.jpg">
+      <p id="gtName">완벽추구 INFJ</p>
+    </div>
+    <div id="badType" onclick="moveInfp()">
+      <h4>나와 안 맞는 유형</h4>
+      <img id="bdImg" src="/horrortest.html/작응원가.jpg">
+      <p id="btName">응원가 INFP</p>
+    </div>
+    <h5>클릭하면 해당 유형으로 이동합니다</h5>
+    <div id="hashtag">
+      <h4 id="share">해시태그를 복사해 인스타에 공유해보세요</h4>
+      <p id="hashtagText">#폐가유형테스트 #폐가탐험테스트 #나의유형은? #유형테스트 #뇽냥뇽 #폐가MBTI #스토리로보는유형테스트 #요즘유행하는테스트</p>
+      <button id="tagButton">해시태그 복사하기</button>
+    </div>
+    
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_inline_share_toolbox_eg70"></div> 
+  </div>
+  <script src="result.js"></script>
+</body>
+</html>

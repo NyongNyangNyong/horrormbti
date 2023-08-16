@@ -1,0 +1,137 @@
+/* 시작페이지 */
+h1 {
+  font-size: 44px;
+  font-family: 'Black And White Picture', sans-serif;
+  color: #03001C;
+  position: relative;
+  bottom: 140px;
+  left:27px;
+}
+h2 {
+  font-family: 'Noto Sans KR', sans-serif;
+  position: relative;
+  bottom: 175px;
+  font-size: 18px;
+  color: #8cadc9;
+  left: 13px;
+}
+#bt_start {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: blue;
+  color: white;
+  border: 2px solid whitesmoke;
+  border-radius: 12px;
+  padding: 20px 50px;
+  font-size: 60px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  opacity: 0.4;
+  top: 310px;
+  position: relative;
+  left: 25px;
+}
+#bt_start:hover {
+  opacity: 0.8;
+  background-color: red;
+  color: black;
+}
+ .start {
+  width: 340px;
+  height: 700px;
+  overflow: hidden;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body * {touch-action: none;} /* 전체 스크롤 액션 금지 */
+.testName {
+  position: relative;
+  top: 140px;
+}
+.startimg {
+  position: relative;
+  bottom: 150px;
+  right: 20px;
+}
+
+/* 질문지 시작*/
+.question {
+  display: none;
+  overflow: hidden;
+  width: 340px;
+  height: 700px;
+}
+h3 {
+  font-size: 22px;
+  font-family: 'Noto Sans KR', sans-serif;
+  position: relative;
+  color: #11052C;
+  bottom: 57px;
+}
+#question_img1, #question_img2, #question_img3, #question_img4, #question_img5, #question_img6, #question_img7, #question_img8, #question_img9, #question_img10, #question_img11, #question_img12  {
+  position: relative;
+  bottom: 75px;
+  height:280px;
+  width:340px;
+}
+#A, #B {
+  width: 280px;
+  height: 90px;
+  border-radius: 12px;
+  border: 1px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  font-family: 'Noto Sans KR', sans-serif;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+#A:hover {
+  color : black;
+  background-color: #8758FF;
+  opacity: 0.9;
+}
+#B:hover {
+  color : black;
+  background-color: #8758FF;
+  opacity: 0.9;
+}
+#A {
+  position: relative;
+  bottom: 60px;
+  left: 27px;
+}
+#B {
+  position: relative;
+  bottom: 55px;
+  left: 27px;
+}
+
+#sg {
+  height: 10px;
+  position: relative;
+  bottom: 134px;
+  left: 291.5px;
+}
+#question_img2, #question_img3, #question_img4, #question_img5, #question_img6, #question_img7, #question_img8, #question_img9, #question_img10, #question_img11, #question_img12 {
+  display: none;
+}
+.progress-txt {
+  font-size: 12px;
+  color: #92A9BD;
+  width: 50px;
+}
+p {
+  font-family:'Noto Sans KR', sans-serif;
+}
+#bar {
+  position: relative;
+  background-color: #CAB8FF;
+  width: 0%;
+  height: 13px;
+  border-radius:12px;
+  left: 3px;
+  border: solid 2px #eaece7;
+}
